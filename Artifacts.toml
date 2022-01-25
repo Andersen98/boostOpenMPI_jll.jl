@@ -7,3 +7,23 @@ os = "linux"
     [[boostOpenMPI.download]]
     sha256 = "db8c3f853685b343dbae1848a5a2dbe4226e500933a9780302d2810af9a6a125"
     url = "https://github.com/Andersen98/boostOpenMPI_jll.jl/releases/download/boostOpenMPI-v1.76.0+0/boostOpenMPI.v1.76.0.x86_64-linux-gnu.tar.gz"
+[[boostOpenMPI]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6b81ee8bd34e8162b3dacc09d7ebb421fc608834"
+libc = "glibc"
+os = "linux"
+
+    [[boostOpenMPI.download]]
+    sha256 = "47415d5b11c769577fff2fa5163bdb41cf07b7aeffb3a665fbc21744f3ee5fbb"
+    url = "https://github.com/Andersen98/boostOpenMPI_jll.jl/releases/download/boostOpenMPI-v1.76.0+0/boostOpenMPI.v1.76.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[boostOpenMPI]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51c4e73dc2e74ea1dd4cbf891aab9f04b6c93130"
+libc = "glibc"
+os = "linux"
+
+    [[boostOpenMPI.download]]
+    sha256 = "94af6c4fad10c9931a14f3952241fb6a498f4418f402bae0f6fb2bd77b2d8339"
+    url = "https://github.com/Andersen98/boostOpenMPI_jll.jl/releases/download/boostOpenMPI-v1.76.0+0/boostOpenMPI.v1.76.0.x86_64-linux-gnu-cxx11.tar.gz"
