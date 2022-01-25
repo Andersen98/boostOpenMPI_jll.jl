@@ -1,0 +1,9 @@
+[[boostOpenMPI]]
+arch = "x86_64"
+git-tree-sha1 = "c7bf6f2e813f35c8686ff3935361d464c729a928"
+libc = "glibc"
+os = "linux"
+
+    [[boostOpenMPI.download]]
+    sha256 = "db8c3f853685b343dbae1848a5a2dbe4226e500933a9780302d2810af9a6a125"
+    url = "https://github.com/Andersen98/boostOpenMPI_jll.jl/releases/download/boostOpenMPI-v1.76.0+0/boostOpenMPI.v1.76.0.x86_64-linux-gnu.tar.gz"
